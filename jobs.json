@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T11:00:00+03:00",
+  "updated_at": "2026-08-11T15:02:33+03:00",
   "jobs": [
     {
       "id": "atkins-r-159396",
@@ -29,5 +29,14 @@
       "notes": "",
       "source": "Parsons Careers"
     }
-  ]
+  ],
+  "meta": {
+    "discovered": 100,
+    "kept": 2,
+    "errors": [
+      "discover https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia",
+      "discover https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia",
+      "discover https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia"
+    ]
+  }
 }
