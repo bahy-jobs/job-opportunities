@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T14:14:06+03:00",
+  "updated_at": "2026-08-13T13:04:23+03:00",
   "jobs": [
     {
       "id": "atkins-r-159396",
@@ -31,12 +31,45 @@
     }
   ],
   "meta": {
-    "discovered": 100,
+    "discovered": 120,
     "kept": 2,
+    "sources": {
+      "Parsons": {
+        "discovered": 100,
+        "errors": 0
+      },
+      "AtkinsRéalis": {
+        "discovered": 0,
+        "errors": 0
+      },
+      "WSP": {
+        "discovered": 0,
+        "errors": 5
+      },
+      "Egis": {
+        "discovered": 20,
+        "errors": 0
+      },
+      "Jacobs": {
+        "discovered": 0,
+        "errors": 0
+      },
+      "AECOM": {
+        "discovered": 0,
+        "errors": 5
+      }
+    },
     "errors": [
-      "discover https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia",
-      "discover https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia",
-      "discover https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia"
+      "discover WSP https://www.wsp.com/en-me/careers/job-opportunities?country=SA: 403 Client Error: Forbidden for url: https://www.wsp.com/en-me/careers/job-opportunities?country=SA",
+      "discover WSP https://www.wsp.com/en-me/careers/join-our-team?country=SA: 403 Client Error: Forbidden for url: https://www.wsp.com/en-me/careers/join-our-team?country=SA",
+      "discover WSP https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=project%20manager: 403 Client Error: Forbidden for url: https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=project%20manager",
+      "discover WSP https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=infrastructure: 403 Client Error: Forbidden for url: https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=infrastructure",
+      "discover WSP https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=roads: 403 Client Error: Forbidden for url: https://www.wsp.com/en-me/careers/job-opportunities?country=SA&query=roads",
+      "discover AECOM https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=project+manager&locationsearch=Saudi+Arabia",
+      "discover AECOM https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=infrastructure&locationsearch=Saudi+Arabia",
+      "discover AECOM https://aecom.jobs/search/?q=roads&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=roads&locationsearch=Saudi+Arabia",
+      "discover AECOM https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=construction+manager&locationsearch=Saudi+Arabia",
+      "discover AECOM https://aecom.jobs/search/?q=resident+engineer&locationsearch=Saudi+Arabia: 404 Client Error: Not Found for url: https://aecom.jobs/search/?q=resident+engineer&locationsearch=Saudi+Arabia"
     ]
   }
 }
