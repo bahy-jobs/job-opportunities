@@ -780,11 +780,12 @@ def main():
             if not title:
                 continue
 
-            if not is_relevant(
-                title,
-                text
-            ):
-                continue
+                    if not is_relevant(
+            title,
+            text
+        ):
+            print(f"Rejected: {company} | {title}")
+            continue
 
             old = (
                 existing.get(final_key)
