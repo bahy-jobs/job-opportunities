@@ -389,9 +389,9 @@ def is_relevant(title, text):
     title_l = title.lower()
 
     role_hit = any(
-        x in title_l
-        for x in ROLE_TERMS
-    )
+    x in title_l or x in blob
+    for x in ROLE_TERMS
+)
 
     domain_hit = any(
         x in blob
