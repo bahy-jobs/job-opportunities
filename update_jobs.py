@@ -940,7 +940,9 @@ def main():
         ),
         reverse=True,
     )[:200]
-
+if not jobs and existing:
+    jobs = list(existing.values())
+    print("No new qualifying jobs found; preserving existing jobs.")
     payload = {
         "updated_at": datetime.now(
             RIYADH_TZ
